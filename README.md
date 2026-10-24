@@ -5,7 +5,7 @@
 **Porcelain** is a calm, cool light theme for [Actual Budget](https://actualbudget.org/). It pairs soft blue-grey surfaces with a single blue accent, like blue-and-white china. The palette is low-saturation, but text, amounts and accents still meet WCAG AA contrast (4.5:1).
 
 <p align="center">
-  <img width="800" alt="Porcelain theme, budget view" src="UPLOAD_BUDGET_SCREENSHOT">
+  <img width="1912" height="1241" alt="Screenshot 2026-10-19 at 15 11 47" src="https://github.com/user-attachments/assets/971e2aae-ec32-406b-ad72-33522ae339b3" />
 </p>
 
 ## 🎨 Color palette
@@ -53,7 +53,7 @@ Porcelain keeps all neutrals on a single blue-grey ramp (hue ≈ 220°, ~30% sat
 ## 📸 Screenshots
 
 <p align="center">
-  <img width="800" alt="Budget view" src="UPLOAD_BUDGET_SCREENSHOT">
+  <img width="1912" height="1241" alt="Screenshot 2026-10-19 at 15 11 47" src="https://github.com/user-attachments/assets/971e2aae-ec32-406b-ad72-33522ae339b3" />
   <br />
   <sub>Budget</sub>
 </p>
@@ -61,7 +61,7 @@ Porcelain keeps all neutrals on a single blue-grey ramp (hue ≈ 220°, ~30% sat
 <br />
 
 <p align="center">
-  <img width="800" alt="Accounts view" src="UPLOAD_ACCOUNTS_SCREENSHOT">
+  <img width="1912" height="1241" alt="Screenshot 2026-10-19 at 15 18 58" src="https://github.com/user-attachments/assets/439c2915-7013-4db8-96fd-437db4c2ca42" />
   <br />
   <sub>Accounts</sub>
 </p>
@@ -69,7 +69,7 @@ Porcelain keeps all neutrals on a single blue-grey ramp (hue ≈ 220°, ~30% sat
 <br />
 
 <p align="center">
-  <img width="800" alt="Schedules view" src="UPLOAD_SCHEDULES_SCREENSHOT">
+  <img width="1912" height="1241" alt="Screenshot 2026-10-19 at 15 15 46" src="https://github.com/user-attachments/assets/a7adc2ee-207d-4801-9e1c-387b5099cf2f" />
   <br />
   <sub>Schedules</sub>
 </p>
