@@ -1,0 +1,307 @@
+:root {
+  --pastel-ink: #383a42;
+  --pastel-ink-strong: #23252c;
+  --pastel-ink-muted: #5d6070;
+  --pastel-ink-soft: #8a8d9b;
+  --pastel-ink-faint: #b4b7c3;
+  --pastel-line: #e2e5ee;
+  --pastel-line-strong: #cfd3df;
+  --pastel-canvas: #f1f3f8;
+  --pastel-canvas-deep: #e2e7f0;
+  --pastel-surface: #fdfdfe;
+  --pastel-surface-alt: #f7f8fb;
+  --pastel-sidebar: #e8ecf3;
+
+  --pastel-blue: #4b6fc6;
+  --pastel-blue-hover: #5677c9;
+  --pastel-blue-text: #3a5aa8;
+  --pastel-blue-soft: #8aa5dc;
+  --pastel-blue-tint: #e4ecfd;
+  --pastel-blue-highlight: #d6e2f8;
+  --pastel-blue-deep: #2f4f94;
+  --pastel-rose: #b03b4a;
+  --pastel-rose-soft: #e3a0b0;
+  --pastel-rose-tint: #fce7ec;
+  --pastel-rose-deep: #8e3048;
+  --pastel-green: #21703c;
+  --pastel-green-soft: #8cc9a0;
+  --pastel-green-tint: #e2f5e8;
+  --pastel-green-deep: #1a5631;
+  --pastel-amber: #b05f0e;
+  --pastel-amber-soft: #ecc39a;
+  --pastel-amber-tint: #fdeedd;
+  --pastel-amber-deep: #74481f;
+  --pastel-cyan: #317a9b;
+  --pastel-cyan-tint: #e0f3fb;
+
+  --color-pageBackground: var(--pastel-canvas);
+  --color-pageBackgroundModalActive: var(--pastel-canvas-deep);
+  --color-pageBackgroundTopLeft: var(--pastel-canvas);
+  --color-pageBackgroundBottomRight: var(--pastel-blue-tint);
+  --color-pageBackgroundLineTop: var(--pastel-surface);
+  --color-pageBackgroundLineMid: var(--pastel-blue-tint);
+  --color-pageBackgroundLineBottom: var(--pastel-blue-tint);
+  --color-pageText: var(--pastel-ink);
+  --color-pageTextLight: var(--pastel-ink-muted);
+  --color-pageTextSubdued: var(--pastel-ink-soft);
+  --color-pageTextDark: var(--pastel-ink-strong);
+  --color-pageTextPositive: var(--pastel-blue-text);
+  --color-pageTextLink: var(--pastel-blue);
+  --color-pageTextLinkLight: var(--pastel-blue);
+
+  --color-cardBackground: var(--pastel-surface);
+  --color-cardBorder: var(--pastel-blue);
+  --color-cardShadow: var(--pastel-ink-muted);
+
+  --color-tableBackground: var(--pastel-surface);
+  --color-tableRowBackgroundAlternate: var(--color-tableBackground);
+  --color-tableRowBackgroundHover: var(--pastel-surface-alt);
+  --color-tableText: var(--color-pageText);
+  --color-tableTextItemAdded: var(--color-tableText);
+  --color-tableTextLight: var(--pastel-ink-soft);
+  --color-tableTextSubdued: var(--pastel-line-strong);
+  --color-tableTextSelected: var(--pastel-ink-strong);
+  --color-tableTextHover: var(--pastel-ink-strong);
+  --color-tableTextInactive: var(--pastel-ink-soft);
+  --color-tableHeaderText: var(--pastel-ink-muted);
+  --color-tableHeaderBackground: var(--pastel-surface);
+  --color-tableBorder: var(--pastel-line);
+  --color-tableBorderSelected: var(--pastel-blue);
+  --color-tableBorderHover: var(--pastel-blue-soft);
+  --color-tableBorderSeparator: var(--pastel-ink-faint);
+  --color-tableRowBackgroundHighlight: var(--pastel-blue-highlight);
+  --color-tableRowBackgroundHighlightText: var(--pastel-ink-strong);
+  --color-tableRowHeaderBackground: #edf0f5;
+  --color-tableRowHeaderText: var(--pastel-ink-strong);
+
+  --color-numberPositive: var(--pastel-green);
+  --color-numberNegative: var(--pastel-rose);
+  --color-numberNeutral: var(--pastel-line-strong);
+  --color-budgetNumberNegative: var(--color-numberNegative);
+  --color-budgetNumberZero: #9298a8;
+  --color-budgetNumberNeutral: var(--color-tableText);
+  --color-budgetNumberPositive: var(--color-budgetNumberNeutral);
+  --color-templateNumberFunded: var(--color-numberPositive);
+  --color-templateNumberUnderFunded: var(--pastel-amber);
+  --color-toBudgetPositive: var(--color-numberPositive);
+  --color-toBudgetZero: var(--color-numberPositive);
+  --color-toBudgetNegative: var(--color-budgetNumberNegative);
+
+  --color-sidebarBackground: var(--pastel-sidebar);
+  --color-sidebarItemBackgroundPending: var(--pastel-amber-tint);
+  --color-sidebarItemBackgroundPositive: var(--pastel-green);
+  --color-sidebarItemBackgroundFailed: var(--pastel-rose);
+  --color-sidebarItemBackgroundHover: rgba(56, 58, 66, 0.07);
+  --color-sidebarItemAccentSelected: #2f55a7;
+  --color-sidebarItemBackgroundSelected: rgba(75, 111, 198, 0.12);
+  --color-sidebarItemText: var(--pastel-ink);
+  --color-sidebarItemTextUpdated: var(--color-sidebarItemText);
+  --color-sidebarItemTextSelected: #2f55a7;
+  --color-sidebarBudgetName: var(--pastel-ink-strong);
+  --color-sidebarHeaderText: var(--pastel-ink-strong);
+  --color-sidebarTextSubdued: var(--pastel-ink-muted);
+  --color-sidebarTextMuted: var(--pastel-ink-soft);
+  --color-sidebarTextPositive: var(--color-sidebarItemBackgroundPositive);
+  --color-sidebarTextFailed: var(--color-sidebarItemBackgroundFailed);
+  --color-sidebarBackgroundFailedSubtle: rgba(176, 59, 74, 0.1);
+  --color-sidebarBorder: var(--pastel-line-strong);
+  --color-sidebarControlBackground: rgba(56, 58, 66, 0.07);
+  --color-sidebarBrand: var(--color-sidebarItemAccentSelected);
+
+  --color-settingsCardBackground: var(--color-tableBackground);
+  --color-settingsCardBorder: var(--color-tableBorder);
+  --color-settingsCardText: var(--color-tableText);
+  --color-settingsCardTextSubdued: var(--pastel-ink-muted);
+  --color-settingsNavItemText: var(--color-pageText);
+  --color-settingsNavItemBackgroundHover: rgba(56, 58, 66, 0.07);
+  --color-settingsNavItemAccentSelected: var(--pastel-blue);
+  --color-settingsNavItemTextSelected: var(--pastel-blue-deep);
+  --color-settingsNavItemBackgroundSelected: rgba(75, 111, 198, 0.1);
+
+  --color-menuBackground: var(--pastel-surface);
+  --color-menuItemBackground: var(--pastel-surface-alt);
+  --color-menuItemBackgroundHover: var(--pastel-blue-highlight);
+  --color-menuItemText: var(--pastel-ink);
+  --color-menuItemTextHover: var(--color-menuItemText);
+  --color-menuItemTextSelected: var(--pastel-blue-text);
+  --color-menuItemTextHeader: var(--pastel-ink-muted);
+  --color-menuBorder: var(--pastel-line);
+  --color-menuBorderHover: var(--pastel-blue-tint);
+  --color-menuKeybindingText: var(--pastel-ink-soft);
+  --color-menuAutoCompleteBackground: var(--pastel-surface);
+  --color-menuAutoCompleteBackgroundHover: var(--pastel-blue-highlight);
+  --color-menuAutoCompleteText: var(--pastel-ink);
+  --color-menuAutoCompleteTextHover: var(--pastel-green-deep);
+  --color-menuAutoCompleteTextHeader: var(--pastel-blue-text);
+  --color-menuAutoCompleteItemTextHover: var(--pastel-ink-strong);
+  --color-menuAutoCompleteItemText: var(--color-menuAutoCompleteText);
+
+  --color-modalBackground: var(--pastel-surface);
+  --color-modalBorder: var(--pastel-line);
+  --color-mobileHeaderBackground: var(--pastel-blue);
+  --color-mobileHeaderText: var(--pastel-surface);
+  --color-mobileHeaderTextSubdued: var(--pastel-blue-tint);
+  --color-mobileHeaderTextHover: rgba(255, 255, 255, 0.15);
+  --color-mobilePageBackground: var(--pastel-canvas);
+  --color-mobileNavBackground: var(--pastel-surface);
+  --color-mobileNavItem: var(--pastel-ink-soft);
+  --color-mobileNavItemSelected: var(--pastel-blue-text);
+  --color-mobileAccountShadow: var(--pastel-line-strong);
+  --color-mobileAccountText: var(--pastel-blue-deep);
+  --color-mobileTransactionSelected: var(--pastel-blue);
+
+  --color-mobileViewTheme: var(--color-mobileHeaderBackground);
+  --color-mobileConfigServerViewTheme: var(--pastel-blue);
+
+  --color-markdownNormal: var(--pastel-blue-tint);
+  --color-markdownDark: var(--pastel-blue-soft);
+  --color-markdownLight: var(--pastel-surface-alt);
+
+  --color-buttonMenuText: var(--pastel-ink);
+  --color-buttonMenuTextHover: var(--pastel-ink-strong);
+  --color-buttonMenuBackground: transparent;
+  --color-buttonMenuBackgroundHover: rgba(56, 58, 66, 0.08);
+  --color-buttonMenuBorder: var(--pastel-line-strong);
+  --color-buttonMenuSelectedText: var(--pastel-green-deep);
+  --color-buttonMenuSelectedTextHover: var(--pastel-amber-deep);
+  --color-buttonMenuSelectedBackground: var(--pastel-amber-tint);
+  --color-buttonMenuSelectedBackgroundHover: var(--pastel-amber-soft);
+  --color-buttonMenuSelectedBorder: var(--color-buttonMenuSelectedBackground);
+
+  --color-buttonPrimaryText: var(--pastel-surface);
+  --color-buttonPrimaryTextHover: var(--color-buttonPrimaryText);
+  --color-buttonPrimaryBackground: var(--pastel-blue);
+  --color-buttonPrimaryBackgroundHover: var(--pastel-blue-hover);
+  --color-buttonPrimaryBorder: var(--color-buttonPrimaryBackground);
+  --color-buttonPrimaryShadow: rgba(75, 111, 198, 0.25);
+  --color-buttonPrimaryDisabledText: var(--pastel-surface);
+  --color-buttonPrimaryDisabledBackground: var(--pastel-ink-faint);
+  --color-buttonPrimaryDisabledBorder: var(--color-buttonPrimaryDisabledBackground);
+
+  --color-buttonNormalText: var(--pastel-ink);
+  --color-buttonNormalTextHover: var(--color-buttonNormalText);
+  --color-buttonNormalBackground: var(--pastel-surface);
+  --color-buttonNormalBackgroundHover: var(--pastel-surface-alt);
+  --color-buttonNormalBorder: var(--pastel-line-strong);
+  --color-buttonNormalShadow: rgba(56, 58, 66, 0.12);
+  --color-buttonNormalSelectedText: var(--pastel-surface);
+  --color-buttonNormalSelectedBackground: var(--pastel-blue);
+  --color-buttonNormalDisabledText: var(--pastel-ink-faint);
+  --color-buttonNormalDisabledBackground: var(--color-buttonNormalBackground);
+  --color-buttonNormalDisabledBorder: var(--color-buttonNormalBorder);
+
+  --color-calendarText: var(--pastel-ink);
+  --color-calendarBackground: var(--pastel-surface);
+  --color-calendarItemText: var(--pastel-ink);
+  --color-calendarItemBackground: var(--pastel-surface-alt);
+  --color-calendarSelectedBackground: var(--pastel-blue-tint);
+  --color-datePickerRangeBackground: var(--pastel-blue-tint);
+
+  --color-buttonBareText: var(--color-pageText);
+  --color-buttonBareTextHover: var(--color-pageText);
+  --color-buttonBareDisabledText: var(--color-pageTextSubdued);
+  --color-buttonBareBackground: transparent;
+  --color-buttonBareDisabledBackground: var(--color-buttonBareBackground);
+  --color-buttonBareBackgroundHover: rgba(56, 58, 66, 0.08);
+  --color-buttonBareBackgroundActive: rgba(56, 58, 66, 0.14);
+
+  --color-noticeBackground: var(--pastel-green-tint);
+  --color-noticeBackgroundLight: var(--pastel-green-tint);
+  --color-noticeBackgroundDark: var(--pastel-green);
+  --color-noticeText: var(--pastel-green-deep);
+  --color-noticeTextLight: var(--pastel-green);
+  --color-noticeTextDark: var(--pastel-green-deep);
+  --color-noticeTextMenu: var(--pastel-green);
+  --color-noticeBorder: var(--pastel-green-soft);
+  --color-warningBackground: var(--pastel-amber-tint);
+  --color-warningText: var(--pastel-amber-deep);
+  --color-warningTextLight: var(--pastel-amber);
+  --color-warningTextDark: var(--pastel-amber-deep);
+  --color-warningBorder: var(--pastel-amber-soft);
+  --color-errorBackground: var(--pastel-rose-tint);
+  --color-errorText: var(--pastel-rose-deep);
+  --color-errorTextDark: var(--pastel-rose-deep);
+  --color-errorTextDarker: var(--pastel-rose-deep);
+  --color-errorTextMenu: var(--pastel-rose);
+  --color-errorBorder: var(--pastel-rose-soft);
+  --color-upcomingBackground: var(--pastel-blue-tint);
+  --color-upcomingText: var(--pastel-blue-deep);
+  --color-upcomingBorder: var(--pastel-blue-soft);
+
+  --color-formLabelText: var(--pastel-blue-text);
+  --color-formLabelBackground: var(--pastel-blue-tint);
+  --color-formInputBackground: var(--pastel-surface-alt);
+  --color-formInputBackgroundSelected: var(--pastel-surface);
+  --color-formInputBackgroundSelection: var(--pastel-blue);
+  --color-formInputBorder: var(--pastel-line-strong);
+  --color-formInputTextReadOnlySelection: var(--pastel-surface-alt);
+  --color-formInputBorderSelected: var(--pastel-blue);
+  --color-formInputText: var(--pastel-ink);
+  --color-formInputTextSelected: var(--pastel-surface);
+  --color-formInputTextPlaceholder: var(--pastel-ink-soft);
+  --color-formInputTextPlaceholderSelected: var(--pastel-ink-faint);
+  --color-formInputTextSelection: var(--pastel-blue-tint);
+  --color-formInputShadowSelected: var(--pastel-blue-soft);
+  --color-formInputTextHighlight: var(--pastel-blue-tint);
+  --color-checkboxText: var(--color-tableBackground);
+  --color-checkboxBackgroundSelected: var(--pastel-blue);
+  --color-checkboxBorderSelected: var(--pastel-blue);
+  --color-checkboxShadowSelected: var(--pastel-blue-soft);
+  --color-checkboxToggleBackground: var(--pastel-ink-faint);
+  --color-checkboxToggleBackgroundSelected: var(--pastel-blue);
+  --color-checkboxToggleDisabled: var(--pastel-line);
+
+  --color-pillBackground: var(--pastel-canvas-deep);
+  --color-pillBackgroundLight: var(--pastel-surface-alt);
+  --color-pillText: var(--pastel-ink);
+  --color-pillTextHighlighted: var(--pastel-blue-text);
+  --color-pillBorder: var(--pastel-line);
+  --color-pillBorderDark: var(--pastel-line-strong);
+  --color-pillBackgroundSelected: var(--pastel-blue-tint);
+  --color-pillTextSelected: var(--pastel-blue-deep);
+  --color-pillBorderSelected: var(--pastel-blue);
+  --color-pillTextSubdued: var(--pastel-ink-faint);
+
+  --color-reportsRed: var(--pastel-rose-soft);
+  --color-reportsBlue: var(--pastel-blue-soft);
+  --color-reportsGreen: var(--pastel-green-soft);
+  --color-reportsGray: var(--pastel-ink-faint);
+  --color-reportsLabel: var(--pastel-ink);
+  --color-reportsInnerLabel: var(--pastel-ink-strong);
+  --color-reportsNumberPositive: var(--color-numberPositive);
+  --color-reportsNumberNegative: var(--color-numberNegative);
+  --color-reportsNumberNeutral: var(--color-numberNeutral);
+  --color-reportsChartFill: var(--color-reportsNumberPositive);
+
+  --color-noteTagBackground: var(--pastel-blue-tint);
+  --color-noteTagBackgroundHover: var(--pastel-blue-highlight);
+  --color-noteTagDefault: var(--pastel-blue-tint);
+  --color-noteTagText: var(--pastel-ink-strong);
+
+  --color-budgetCurrentMonth: var(--color-tableBackground);
+  --color-budgetOtherMonth: var(--pastel-surface-alt);
+  --color-budgetHeaderCurrentMonth: var(--color-budgetOtherMonth);
+  --color-budgetHeaderOtherMonth: var(--pastel-canvas);
+
+  --color-floatingActionBarBackground: var(--pastel-blue);
+  --color-floatingActionBarBorder: var(--color-floatingActionBarBackground);
+  --color-floatingActionBarText: var(--pastel-surface);
+
+  --color-tooltipText: var(--pastel-ink);
+  --color-tooltipBackground: var(--pastel-surface);
+  --color-tooltipBorder: var(--pastel-line);
+
+  --color-calendarCellBackground: var(--pastel-canvas);
+
+  --color-overlayBackground: rgba(56, 58, 66, 0.25);
+
+  --color-chartQual1: #6f93d8;
+  --color-chartQual2: #9d8ad9;
+  --color-chartQual3: #d97a93;
+  --color-chartQual4: #5fae7f;
+  --color-chartQual5: #e09a5c;
+  --color-chartQual6: #4fa9c9;
+  --color-chartQual7: #c77fbf;
+  --color-chartQual8: #cdb25a;
+  --color-chartQual9: #8a8d9b;
+}
